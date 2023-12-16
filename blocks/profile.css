@@ -100,7 +100,6 @@
 
   .profile__add-button {
     margin: 36px 0 0;
-    max-width: 282px;
   }
 }
 
@@ -115,7 +114,6 @@
   }
 
   .profile__info {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
@@ -128,15 +126,12 @@
 
   .profile__add-button {
     width: 100%;
-    margin: 0;
+    border: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
   .profile {
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 800px) {
 }
