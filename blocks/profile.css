@@ -47,7 +47,7 @@
 
 .profile__edit-button:hover {
   background: transparent url(../images/Edit-Button-hover.svg) center no-repeat;
-  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  border: 1px solid rgba(84, 84, 84, 0.7);
 }
 
 .profile__add-button {
@@ -62,7 +62,7 @@
 
 .profile__add-button:hover {
   background: transparent url(../images/Add-Button-hover.svg) center no-repeat;
-  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  border: 1px solid rgba(84, 84, 84, 0.7);
 }
 
 .profile__description {
