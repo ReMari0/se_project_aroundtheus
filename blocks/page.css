@@ -2,16 +2,12 @@
   font-family: Inter, Arial, Helvetica, sans-serif;
   background-color: #000000;
   color: #ffffff;
-}
-
-.page__section {
   max-width: 880px;
   width: 100%;
   box-sizing: border-box;
   position: relative;
   margin: 0 auto;
 }
-
 .page__content {
   display: flex;
   flex-direction: column;
@@ -19,7 +15,7 @@
 }
 
 @media screen and (max-width: 937px) {
-  .page__section {
+  .page {
     max-width: calc(100% - 20px);
   }
 }
