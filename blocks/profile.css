@@ -78,6 +78,12 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 920px) {
+  .profile {
+    margin: 0 20px;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .profile__description {
     font-size: 20px;
@@ -136,7 +142,6 @@
 @media screen and (max-width: 320px) {
   .profile {
     max-width: 320px;
-    margin: 0;
   }
 
   .profile__image {
