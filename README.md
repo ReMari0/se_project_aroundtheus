@@ -22,7 +22,11 @@ The way you'll do this at work is by exporting images directly from Figma — we
 Good luck and have fun!
 
 **GitHub Page**
-1. Vdieo Review of Project
+
+1. Video Review of Project
+
 - https://1drv.ms/v/s!AgwDxItjoNKfxHRwPan-kIYQ0_8m?e=RYmJrw
+
 2. Link to Project
+
 - https://remari0.github.io/se_project_aroundtheus/
