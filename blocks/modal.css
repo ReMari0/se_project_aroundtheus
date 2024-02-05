@@ -11,7 +11,7 @@
   display: none;
 }
 
-.modal__opened {
+.modal_opened {
   display: flex;
 }
 
@@ -19,14 +19,24 @@
   border: none;
   cursor: pointer;
   position: absolute;
-  background-color: transparent;
+  background: transparent url(../images/close-icon.svg) center no-repeat;
   top: -48.28px;
   right: -48.28px;
   width: 40px;
   height: 40px;
-  background-image: url(../images/close-icon.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  transition: 0.6s;
+}
+
+.modal__close:hover {
+  opacity: 60%;
+}
+
+.modal__form {
+  opacity: 0;
+}
+
+.modal__input {
+  display: grid;
 }
 
 .modal__container {
@@ -42,4 +52,5 @@
   font-size: 24px;
   font-weight: 900;
   line-height: normal;
+  margin: 0 0 54px;
 }
