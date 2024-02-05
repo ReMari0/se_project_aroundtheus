@@ -35,10 +35,6 @@
   opacity: 0;
 }
 
-.modal__input {
-  display: grid;
-}
-
 .modal__container {
   position: relative;
   background-color: white;
