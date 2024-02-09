@@ -7,7 +7,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
   display: flex;
-  padding: 19px;
+  padding: 0 19px;
   display: none;
 }
 
@@ -20,8 +20,8 @@
   cursor: pointer;
   position: absolute;
   background: transparent url(../images/close-icon.svg) center no-repeat;
-  top: -48.28px;
-  right: -48.28px;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
   width: 40px;
   height: 40px;
   transition: 0.6s;
@@ -29,10 +29,6 @@
 
 .modal__close:hover {
   opacity: 60%;
-}
-
-.modal__form {
-  opacity: 0;
 }
 
 .modal__container {
@@ -49,4 +45,35 @@
   font-weight: 900;
   line-height: normal;
   margin: 0 0 54px;
+}
+
+.modal__form {
+  display: grid;
+}
+
+.modal__input:first-child {
+  margin-bottom: 29.74px;
+}
+
+.modal__input {
+  width: 358px;
+  height: 27.255px;
+  border-style: none none solid none;
+  border-color: rgba(84, 84, 84, 0.2);
+  color: #000;
+  font-size: 14px;
+}
+
+.modal__button {
+  width: 368px;
+  height: 50.152px;
+  margin: 48px 0 0;
+  border: 2px;
+  background: transparent url(../images/submit-button.svg) center no-repeat;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  opacity: 80%;
 }
